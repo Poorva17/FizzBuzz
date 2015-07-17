@@ -33,4 +33,12 @@ public class FizzBuzz {
 
         return null;
     }
+
+    public String isNotMultipleOfThreeOrFive() {
+
+        if(number%3!=0&&number%5!=0)
+            return "Blah";
+
+        return null;
+    }
 }

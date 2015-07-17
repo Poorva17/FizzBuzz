@@ -32,6 +32,15 @@ public class FizzBuzzTest {
 
     }
 
+    @Test
+    public void shouldPrintBlah(){
+        number=new FizzBuzz(16);
 
-    
+        String result=number.isNotMultipleOfThreeOrFive();
+        assertEquals("Blah",result);
+
+    }
+
+
+
 }
