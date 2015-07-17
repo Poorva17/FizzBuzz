@@ -23,5 +23,15 @@ public class FizzBuzzTest {
         assertEquals("Buzz",result);
     }
 
+    @Test
+    public void shouldPrintFizzBuzz(){
+        number=new FizzBuzz(15);
 
+        String result=number.isMultipleOfThreeAndFive();
+        assertEquals("FizzBuzz",result);
+
+    }
+
+
+    
 }

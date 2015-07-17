@@ -25,4 +25,12 @@ public class FizzBuzz {
 
         return null;
     }
+
+    public String isMultipleOfThreeAndFive() {
+
+        if(number%3==0&&number%5==0)
+            return "FizzBuzz";
+
+        return null;
+    }
 }
