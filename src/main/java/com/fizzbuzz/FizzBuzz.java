@@ -13,6 +13,16 @@ public class FizzBuzz {
     }
 
     public String isMultipleOfThree() {
-        return "fizz";
+        if(number%3==0)
+            return "Fizz";
+
+        return null;
+    }
+
+    public String isMultipleOfFive() {
+        if(number%5==0)
+            return "Buzz";
+
+        return null;
     }
 }

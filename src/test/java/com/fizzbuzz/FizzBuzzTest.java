@@ -13,7 +13,14 @@ public class FizzBuzzTest {
         number=new FizzBuzz(3);
 
         String result=number.isMultipleOfThree();
-        assertEquals("fizz",result);
+        assertEquals("Fizz",result);
+    }
+
+    @Test
+    public void shouldPrintBuzz(){
+        number=new FizzBuzz(5);
+        String result=number.isMultipleOfFive();
+        assertEquals("Buzz",result);
     }
 
 
